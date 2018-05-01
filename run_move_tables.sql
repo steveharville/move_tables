@@ -1,3 +1,4 @@
+-- copyright 2015 Steve Harville
 drop table  steveharville.wrong_tsp;
 create table steveharville.wrong_tsp as (select * from dba_objects) ;
 alter table steveharville.wrong_tsp add primary key (OBJECT_ID);
